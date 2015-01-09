@@ -1,5 +1,7 @@
 This is a simple Sinatra web app that takes a word and some text in a form page
 and displays the number of times the word was found in the results page.
+The underlying method will find matches within words e.g. it will find and
+count "cat" in "cathedral".
 
 To setup, run bundler in the project directory, then run the app.rb file with
 Ruby.  The form then be found on "localhost:4567/form". Enjoy!
