@@ -1,27 +1,14 @@
 This is a simple Sinatra web app that takes a word and some text in a form page
-and displays the number of times the word was found in the results page.
-The underlying method will find matches within words e.g. it will find and
-count "cat" in "cathedral".
+and displays the number of times the word was found in the results page. It was completed at the end of the frst week of Epicodus. The underlying method will find matches within words e.g. it will find and
+count "cat" in "cathedral". This is accomplished in very few lines of code using the string split method.
 
 To setup, run bundler in the project directory, then run the app.rb file with
-Ruby.  The form then be found on "localhost:4567/form". Enjoy!
+Ruby.  
+```
+$ ruby app.rb
+```
+The form then be found on `localhost:4567/form`. Enjoy!
 
 Copyright (c) 2015 Gabriel S. Finch
+MIT license
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
